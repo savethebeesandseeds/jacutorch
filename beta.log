@@ -1,0 +1,456 @@
+This is METAFONT, Version 2.7182818 (TeX Live 2019/dev/Debian) (preloaded base=mf 2020.4.26)  19 MAY 2020 21:41
+**\mode=ljfour; mode_setup; input beta.mf; verbose
+(/usr/share/texlive/texmf-dist/fonts/source/public/lfb/beta.mf
+>> 0.12045extra+0.12045width
+! Internal quantity `charwd' must receive a known value.
+<to be read again> 
+                   ;
+beginchar->...byte(EXPR0)else:0fi;charwd:=(EXPR1);
+                                                  charht:=(EXPR2);chardp:=(E...
+l.152 ...ta, width#+extra#, ascender#, descender#)
+                                                  ;
+? 
+>> ascender#
+! Internal quantity `charht' must receive a known value.
+<to be read again> 
+                   ;
+beginchar->...0fi;charwd:=(EXPR1);charht:=(EXPR2);
+                                                  chardp:=(EXPR3);w:=hround(...
+l.152 ...ta, width#+extra#, ascender#, descender#)
+                                                  ;
+? 
+>> descender#
+! Internal quantity `chardp' must receive a known value.
+<to be read again> 
+                   ;
+beginchar->...R1);charht:=(EXPR2);chardp:=(EXPR3);
+                                                  w:=hround(charwd*hppp);h:=...
+l.152 ...ta, width#+extra#, ascender#, descender#)
+                                                  ;
+? 
+>> betaangle-180
+! Improper transformation argument.
+<to be read again> 
+                   ;
+penpos->...y(SUFFIX2)l)=((EXPR3),0)rotated(EXPR4);
+                                                  x(SUFFIX2)=0.5(x(SUFFIX2)l...
+
+gen_letter->...k,-90);penpos6(thick,betaangle-180)
+                                                  ;penpos7(thin,betaangle+90...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> betaangle+90
+! Improper transformation argument.
+<to be read again> 
+                   ;
+penpos->...y(SUFFIX2)l)=((EXPR3),0)rotated(EXPR4);
+                                                  x(SUFFIX2)=0.5(x(SUFFIX2)l...
+
+gen_letter->...gle-180);penpos7(thin,betaangle+90)
+                                                  ;penpos8(2u,betaangle);pen...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> betaangle
+! Improper transformation argument.
+<to be read again> 
+                   ;
+penpos->...y(SUFFIX2)l)=((EXPR3),0)rotated(EXPR4);
+                                                  x(SUFFIX2)=0.5(x(SUFFIX2)l...
+
+gen_letter->...betaangle+90);penpos8(2u,betaangle)
+                                                  ;penpos9(thin,betaangle-90...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> betaangle-90
+! Improper transformation argument.
+<to be read again> 
+                   ;
+penpos->...y(SUFFIX2)l)=((EXPR3),0)rotated(EXPR4);
+                                                  x(SUFFIX2)=0.5(x(SUFFIX2)l...
+
+gen_letter->...taangle);penpos9(thin,betaangle-90)
+                                                  ;penpos10(xthick,180);penp...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> x2r+0.43301thick
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...;z12=1/2[z3,z4]+(-tiny,0);fill.z1..
+                                                  z2l..z3l{dir95}..{dir85}z4...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> y2r-0.25thick
+! Undefined y coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...;z12=1/2[z3,z4]+(-tiny,0);fill.z1..
+                                                  z2l..z3l{dir95}..{dir85}z4...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> x2r
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...1/2[z3,z4]+(-tiny,0);fill.z1..z2l..
+                                                  z3l{dir95}..{dir85}z4l..{r...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> y2r-thick
+! Undefined y coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...1/2[z3,z4]+(-tiny,0);fill.z1..z2l..
+                                                  z3l{dir95}..{dir85}z4l..{r...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> x3r-medthin
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   {
+gen_letter->...z3,z4]+(-tiny,0);fill.z1..z2l..z3l{
+                                                  dir95}..{dir85}z4l..{right...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> 0.5y5r+0.5medthick+0.5y2r-0.5thick
+! Undefined y coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...l.z1..z2l..z3l{dir95}..{dir85}z4l..
+                                                  {right}z5l..z6l..{dir(beta...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> 0.6width
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...3l{dir95}..{dir85}z4l..{right}z5l..
+                                                  z6l..{dir(betaangle-170)}z...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> y5r+medthick
+! Undefined y coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...3l{dir95}..{dir85}z4l..{right}z5l..
+                                                  z6l..{dir(betaangle-170)}z...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> -0.5xthick+width
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...r95}..{dir85}z4l..{right}z5l..z6l..
+                                                  {dir(betaangle-170)}z7l..z...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> 0.77777y5r+0.77777medthick
+! Undefined y coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...r95}..{dir85}z4l..{right}z5l..z6l..
+                                                  {dir(betaangle-170)}z7l..z...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> betaangle-170
+! Improper transformation argument.
+<to be read again> 
+                   endgroup
+<to be read again> 
+                   }
+gen_letter->...ight}z5l..z6l..{dir(betaangle-170)}
+                                                  z7l..z8l..z9l{dir(betaangl...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> -thin+0.74074x2r+thick
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...z5l..z6l..{dir(betaangle-170)}z7l..
+                                                  z8l..z9l{dir(betaangle-10)...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> 0.55556y5r+0.55556medthick
+! Undefined y coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...z5l..z6l..{dir(betaangle-170)}z7l..
+                                                  z8l..z9l{dir(betaangle-10)...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> thick
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...z6l..{dir(betaangle-170)}z7l..z8l..
+                                                  z9l{dir(betaangle-10)}..z1...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> 0.55556y5r+0.55556medthick
+! Undefined y coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...z6l..{dir(betaangle-170)}z7l..z8l..
+                                                  z9l{dir(betaangle-10)}..z1...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> -thin+0.74074x2r+thick
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   {
+gen_letter->....{dir(betaangle-170)}z7l..z8l..z9l{
+                                                  dir(betaangle-10)}..z10l.....
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> 0.55556y5r+0.55556medthick
+! Undefined y coordinate has been replaced by 0.
+<to be read again> 
+                   {
+gen_letter->....{dir(betaangle-170)}z7l..z8l..z9l{
+                                                  dir(betaangle-10)}..z10l.....
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> betaangle-10
+! Improper transformation argument.
+<to be read again> 
+                   endgroup
+<to be read again> 
+                   }
+gen_letter->...0)}z7l..z8l..z9l{dir(betaangle-10)}
+                                                  ..z10l..z11l..z12l--z12r.....
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> width
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...z8l..z9l{dir(betaangle-10)}..z10l..
+                                                  z11l..z12l--z12r..z11r..z1...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> 0.27777y5r+0.27777medthick
+! Undefined y coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...z8l..z9l{dir(betaangle-10)}..z10l..
+                                                  z11l..z12l--z12r..z11r..z1...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> 0.5width
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...9l{dir(betaangle-10)}..z10l..z11l..
+                                                  z12l--z12r..z11r..z10r..{d...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> -0.08682medthick-0.5x3r+medthin
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   {
+--->{
+     curl1}..{curl1}
+gen_letter->...(betaangle-10)}..z10l..z11l..z12l--
+                                                  z12r..z11r..z10r..{dir(bet...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> 0.25y5r-0.2424medthick+0.25y2r-0.25thick
+! Undefined y coordinate has been replaced by 0.
+<to be read again> 
+                   {
+--->{
+     curl1}..{curl1}
+gen_letter->...(betaangle-10)}..z10l..z11l..z12l--
+                                                  z12r..z11r..z10r..{dir(bet...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> 0.08682medthick-0.5x3r+medthin
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...ngle-10)}..z10l..z11l..z12l--z12r..
+                                                  z11r..z10r..{dir(betaangle...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> 0.25y5r+0.7424medthick+0.25y2r-0.25thick
+! Undefined y coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...ngle-10)}..z10l..z11l..z12l--z12r..
+                                                  z11r..z10r..{dir(betaangle...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> 0.5width
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...0)}..z10l..z11l..z12l--z12r..z11r..
+                                                  z10r..{dir(betaangle-180)}...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> medthin
+! Undefined y coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...0)}..z10l..z11l..z12l--z12r..z11r..
+                                                  z10r..{dir(betaangle-180)}...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> -xthick+width
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...10l..z11l..z12l--z12r..z11r..z10r..
+                                                  {dir(betaangle-180)}z9r..z...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> 0.27777y5r+0.27777medthick
+! Undefined y coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...10l..z11l..z12l--z12r..z11r..z10r..
+                                                  {dir(betaangle-180)}z9r..z...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> betaangle-180
+! Improper transformation argument.
+<to be read again> 
+                   endgroup
+<to be read again> 
+                   }
+gen_letter->...r..z11r..z10r..{dir(betaangle-180)}
+                                                  z9r..z8r..z7r{dir.betaangl...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> 0.74074x2r+thick
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...1r..z10r..{dir(betaangle-180)}z9r..
+                                                  z8r..z7r{dir.betaangle}..z...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> 0.55556y5r+0.55556medthick
+! Undefined y coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...1r..z10r..{dir(betaangle-180)}z9r..
+                                                  z8r..z7r{dir.betaangle}..z...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> 0.74074x2r+thick
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...10r..{dir(betaangle-180)}z9r..z8r..
+                                                  z7r{dir.betaangle}..z6r..z...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> 0.55556y5r+0.55556medthick
+! Undefined y coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...10r..{dir(betaangle-180)}z9r..z8r..
+                                                  z7r{dir.betaangle}..z6r..z...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> 0.74074x2r+thick
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   {
+gen_letter->....{dir(betaangle-180)}z9r..z8r..z7r{
+                                                  dir.betaangle}..z6r..z5r{l...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> 0.55556y5r+0.55556medthick
+! Undefined y coordinate has been replaced by 0.
+<to be read again> 
+                   {
+gen_letter->....{dir(betaangle-180)}z9r..z8r..z7r{
+                                                  dir.betaangle}..z6r..z5r{l...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> betaangle
+! Improper transformation argument.
+<to be read again> 
+                   endgroup
+<to be read again> 
+                   }
+gen_letter->...e-180)}z9r..z8r..z7r{dir.betaangle}
+                                                  ..z6r..z5r{left}..z4r{dir-...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> -0.5xthick+thick+width
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...z9r..z8r..z7r{dir.betaangle}..z6r..
+                                                  z5r{left}..z4r{dir-95}..{d...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> 0.77777y5r+0.77777medthick
+! Undefined y coordinate has been replaced by 0.
+<to be read again> 
+                   ..
+gen_letter->...z9r..z8r..z7r{dir.betaangle}..z6r..
+                                                  z5r{left}..z4r{dir-95}..{d...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> 0.6width
+! Undefined x coordinate has been replaced by 0.
+<to be read again> 
+                   {
+gen_letter->....z8r..z7r{dir.betaangle}..z6r..z5r{
+                                                  left}..z4r{dir-95}..{dir-8...
+l.153 gen_letter
+                ; penlabels(1,2,3,4,5,6,7,8,9,10,11,12,13);
+? 
+>> y5r
+! Undefined y coordinate has been replaced by 0.
+<to be read again> 
+                   {
+gen_letter->....z8r..z7r{dir.betaangle}..z6r..z5r{
+                                               

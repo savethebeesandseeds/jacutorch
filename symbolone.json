@@ -1,0 +1,53 @@
+{
+    "name":"waka",
+    "type":"symetric",
+    "draw":"\\mathcal{W}",
+    "value":"",
+    "base": [
+        {
+            "type":"real",
+            "draw":"\\mathbb{R}",
+            "supra": [
+                {
+                    "type":"integer",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "type":"real",
+            "draw":"\\mathbb{R}",
+            "supra": [
+                {
+                    "type":"integer",
+                    "value": "3"
+                }
+            ]
+        }
+    ],
+    "infra": [
+        {
+            "type":"symetric",
+            "draw":"\\matcal{a}",
+            "base":[
+                {
+                    "type":"integer",
+                    "draw":"2"
+                }
+            ],
+            "law":{
+
+            }
+        }
+    ],
+    "supra": [
+        {
+            "nothing": "nothing"
+        }
+    ],
+    "law": [
+        {
+            "nothing": "nothing"
+        }
+    ]
+}

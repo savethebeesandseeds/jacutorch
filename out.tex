@@ -1,0 +1,38 @@
+\documentclass[]{article}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage[]{lmodern}%
+\usepackage[]{textcomp}%
+\usepackage[margin =5pt, paperwidth =300pt, paperheight =300pt]{geometry}%
+\usepackage[]{amsmath}%
+\usepackage[]{amsfonts}%
+\usepackage[]{amssymb}%
+\usepackage[]{tabularx}%
+\usepackage[]{multirow}%
+\usepackage[]{graphics}%
+\usepackage[]{graphicx}%
+\usepackage[]{ragged2e}%
+\usepackage{array}%
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}%
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}%
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}%
+%
+%
+%
+%
+\begin{document}%
+\normalsize%
+\begin{table}[!h]
+\begin{minipage}[b]{200px}%
+\addtolength{\tabcolsep}{-5pt}
+\setlength{\arrayrulewidth}{0.1pt}
+\fontsize{4px}{6px}\selectfont
+\begin{tabular*}{200px}{C{40px} C{40px} C{40px} C{40px} C{40px}}
+\multicolumn{5}{|c|}{TOP}\\\cline{1-1}\cline{2-2}\cline{4-4}\cline{5-5}
+\multicolumn{1}{|C{40px}|}{a}&\multicolumn{1}{|C{40px}|}{b}&\multirow{2}{*}{\fontsize{8}{10}\selectfont $\Omega$}&\multicolumn{1}{|C{40px}|}{f}&\multicolumn{1}{|C{40px}|}{g}\\\cline{1-1}\cline{2-2}\cline{4-4}\cline{5-5}
+\multicolumn{1}{|C{40px}|}{c}&\multicolumn{1}{|C{40px}|}{d}&&\multicolumn{1}{|C{40px}|}{h}&\multicolumn{1}{|C{40px}|}{i}\\\cline{1-1}\cline{2-2}\cline{4-4}\cline{5-5}
+\multicolumn{5}{|c|}{BOT}\\
+\end{tabular*}
+\end{minipage}
+\end{table}
+\end{document}
